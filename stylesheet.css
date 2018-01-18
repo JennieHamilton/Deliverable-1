@@ -1,0 +1,65 @@
+/* Selects any <a> element when "hovered" */
+a:hover {
+  color: orange;
+}
+
+body {
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+nav {
+  display: flex;
+  margin-right: 10px;
+  justify-content: flex-end;
+}
+
+nav a {
+  margin: 0 2px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Dawning of a New Day', cursive;
+  font-size: 300%;
+}
+
+.h3center {
+  text-align: center;
+}
+
+.pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pic {
+  border-radius: 27px;
+  height: 200px;
+  margin: 20px;
+  box-shadow: 8px 8px 2px 1px grey;
+}
+
+.form {
+  border: 2px dotted purple;
+  padding: 20px 30px;
+  margin: 0 auto;
+  width: 500px;
+}
+
+@media (max-width: 500px) {
+  nav {
+    text-align: left;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  h1 {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .pics {
+    flex-wrap: nowrap;
+  }
+}
