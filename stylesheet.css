@@ -23,6 +23,21 @@ h1 {
   font-size: 300%;
 }
 
+.textbox {
+  height: 20px;
+  font-size: 15px;
+}
+
+textarea {
+  height: 100px;
+  width: 500px;
+  font-size: 15px;
+}
+
+.submit {
+  font-size: 2em;
+}
+
 .h3center {
   text-align: center;
 }
